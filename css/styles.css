@@ -140,11 +140,11 @@ text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
 }
-.team-list {
-    background-color: #ffffff;
-}
+.team-list 
+
+
 .team-item {
-    
+    background-color: #ffffff;
 }
 .team-img {
 }
