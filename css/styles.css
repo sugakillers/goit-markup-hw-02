@@ -65,8 +65,6 @@ color:#434455;
 
 
 .hero {
-    width: 1440px;
-height: 600px;
     background-color:  #2e2f42;
 }
 
@@ -126,8 +124,6 @@ letter-spacing: 0.02em;
 
 
 .team {
-    width: 1440px;
-height: 732px;
 background: #f4f4fd;
 }
 
