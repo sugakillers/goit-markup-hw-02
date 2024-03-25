@@ -17,18 +17,18 @@ a {
 /* ---------HEADER--------- */
 
 
-.logo {
+.header-logo {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;;
+color: #4d5ae5;
 }
 
-.logo-web {
-    color: #4d5ae5;
+.header-logo-studio {
+    color: #2e2f42;
 }
 
 .header-menu-link {
@@ -44,11 +44,15 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+.header-ads {
+    font-style: normal;
+}
+
 .header-ads-link {
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-font-style: normal;
+color:#434455; 
 }
 
 .header-ads-link:hover, 
@@ -80,8 +84,16 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
+background-color: #4d5ae5;
 cursor: pointer
 }
+
+.hero-btn:focus,
+.hero-btn:hover {
+    background-color: #404bbf;
+}
+
+
 
 
  /* ---------QUALITY----------- */
@@ -125,9 +137,11 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color: #2e2f42;
 }
 .team-list {
+    background-color: #ffffff;
 }
 .team-item {
     
@@ -161,6 +175,7 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize ;
 color: #2e2f42;
 }
 .portfolio-list {
@@ -191,6 +206,21 @@ letter-spacing: 0.02em;
     width: 1440px;
 height: 312px;
 }
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.footer-logo-studio {
+    color: #f4f4fd;
+}
+
 .footer-item {
 font-size: 16px;
 line-height: 1.5;
